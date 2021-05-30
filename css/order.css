@@ -1,0 +1,32 @@
+ .smaker {
+     border: 1px solid black;
+     border-collapse: collapse;
+}
+
+.liter {
+
+}
+
+
+.priser {
+    list-style: none;
+    padding-left: 0;
+}
+    
+.priser li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 170%;
+}
+.priser li:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url("ice-cream.png");
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
